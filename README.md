@@ -39,3 +39,7 @@
 ```bash
     $ cargo doc --open #Open Docs
 ```
+
+# Chapter 3
+
+learned about variables, scalar and compound data types, functions, comments, if expressions, and loops!
