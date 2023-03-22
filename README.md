@@ -43,3 +43,9 @@
 # Chapter 3
 
 learned about variables, scalar and compound data types, functions, comments, if expressions, and loops!
+
+## Practice Problems
+
+- Convert temperatures between Fahrenheit and Celsius.
+- Generate the nth Fibonacci number.
+- Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
