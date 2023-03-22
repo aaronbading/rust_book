@@ -37,7 +37,5 @@
 # Chapter 2
 
 ```bash
-
-
     $ cargo doc --open #Open Docs
 ```
