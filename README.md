@@ -33,3 +33,11 @@
 
     $ cargo build --release #This builds the project with optimizations
 ```
+
+# Chapter 2
+
+```bash
+
+
+    $ cargo doc --open #Open Docs
+```
