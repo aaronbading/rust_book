@@ -1,2 +1,5 @@
 deps
 incremental
+fingerprint
+build
+debug
