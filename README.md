@@ -49,3 +49,10 @@ learned about variables, scalar and compound data types, functions, comments, if
 - Convert temperatures between Fahrenheit and Celsius.
 - Generate the nth Fibonacci number.
 - Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
+
+# Chapter 4
+
+## Takeaways
+
+- At any given time, you can have either one mutable reference or any number of immutable references.
+- References must always be valid.
