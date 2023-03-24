@@ -6,7 +6,7 @@
 
 #### Cargo Book : https://doc.rust-lang.org/cargo/
 
-# Chapter 1
+# Chapter 1 | Getting Started
 
 ```bash
     $ rustc main.rs
@@ -34,13 +34,13 @@
     $ cargo build --release #This builds the project with optimizations
 ```
 
-# Chapter 2
+# Chapter 2 | Programming a Guessing Game
 
 ```bash
     $ cargo doc --open #Open Docs
 ```
 
-# Chapter 3
+# Chapter 3 | Common Programming Concepts
 
 learned about variables, scalar and compound data types, functions, comments, if expressions, and loops!
 
@@ -50,11 +50,17 @@ learned about variables, scalar and compound data types, functions, comments, if
 - Generate the nth Fibonacci number.
 - Print the lyrics to the Christmas carol “The Twelve Days of Christmas,” taking advantage of the repetition in the song.
 
-# Chapter 4
+# Chapter 4 | Understanding Ownership
 
 ## Takeaways
 
 - At any given time, you can have either one mutable reference or any number of immutable references.
 - References must always be valid.
 
-# Chapter 5
+# Chapter 5 | Using Structs
+
+## Summary
+
+- Structs let you create custom types that are meaningful for your domain. By using structs, you can keep associated pieces of data connected to each other and name each piece to make your code clear. In impl blocks, you can define functions that are associated with your type, and methods are a kind of associated function that let you specify the behavior that instances of your structs have.
+
+# Chapter 6 | Enum and pattern Matching
