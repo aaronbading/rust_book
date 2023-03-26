@@ -68,3 +68,13 @@ learned about variables, scalar and compound data types, functions, comments, if
 - We’ve now covered how to use enums to create custom types that can be one of a set of enumerated values. We’ve shown how the standard library’s Option<T> type helps you use the type system to prevent errors. When enum values have data inside them, you can use match or if let to extract and use those values, depending on how many cases you need to handle.
 
 # Chapter 7 | Managing Growing Projects with Packages, Crates, and Modules
+
+- Crate is generally synonymous with a library .
+- Modules let us organize code within a crate for readability and easy reuse.
+- Modules also allow us to control the privacy of items, because code within a module is private by default
+
+- Create new library by running :
+
+```bash
+ cargo new lib_name --lib
+```
