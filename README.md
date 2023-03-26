@@ -64,3 +64,7 @@ learned about variables, scalar and compound data types, functions, comments, if
 - Structs let you create custom types that are meaningful for your domain. By using structs, you can keep associated pieces of data connected to each other and name each piece to make your code clear. In impl blocks, you can define functions that are associated with your type, and methods are a kind of associated function that let you specify the behavior that instances of your structs have.
 
 # Chapter 6 | Enum and pattern Matching
+
+- We’ve now covered how to use enums to create custom types that can be one of a set of enumerated values. We’ve shown how the standard library’s Option<T> type helps you use the type system to prevent errors. When enum values have data inside them, you can use match or if let to extract and use those values, depending on how many cases you need to handle.
+
+# Chapter 7 | Managing Growing Projects with Packages, Crates, and Modules
