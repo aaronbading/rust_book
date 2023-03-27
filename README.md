@@ -84,5 +84,6 @@ learned about variables, scalar and compound data types, functions, comments, if
 
 # Chapter 8 | Common Collections
 
-- Vectors
-- Strings
+- Vectors, strings, and hash maps will provide a large amount of functionality necessary in programs when you need to store, access, and modify data.
+
+# Chapter 9 | Error Handling
