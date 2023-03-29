@@ -97,3 +97,6 @@ learned about variables, scalar and compound data types, functions, comments, if
 - Traits are similar to interfaces in other languages
 - Traits are used to define shared behavior in an abstract way
 - Traits can be used to define a set of methods required to accomplish some purpose
+
+- Lifetimes
+- Summary : Now that you know about generic type parameters, traits and trait bounds, and generic lifetime parameters, you’re ready to write code without repetition that works in many different situations. Generic type parameters let you apply the code to different types. Traits and trait bounds ensure that even though the types are generic, they’ll have the behavior the code needs. You learned how to use lifetime annotations to ensure that this flexible code won’t have any dangling references. And all of this analysis happens at compile time, which doesn’t affect runtime performance!
