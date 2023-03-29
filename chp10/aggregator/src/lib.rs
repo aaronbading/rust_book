@@ -7,7 +7,11 @@ pub trait Summary {
         String::from("(Read more...)")
     }
 }
-pub fn notify(item: &impl Summary) {
+//works for straightforward cases
+// pub fn notify(item: &impl Summary) {
+//     println!("Breaking news! {}", item.summarize());
+// }
+pub fn notify<T: Summary>(item: &T) {
     println!("Breaking news! {}", item.summarize());
 }
 
