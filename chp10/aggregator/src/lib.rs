@@ -7,7 +7,9 @@ pub trait Summary {
         String::from("(Read more...)")
     }
 }
-
+pub fn notify(item: &impl Summary) {
+    println!("Breaking news! {}", item.summarize());
+}
 
 pub struct NewsArticle {
     pub headline: String,
@@ -34,3 +36,4 @@ impl Summary for Tweet {
         format!("{}: {}", self.username, self.content)
     }
 }
+
