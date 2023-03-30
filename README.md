@@ -109,4 +109,8 @@ learned about variables, scalar and compound data types, functions, comments, if
  # run tests with a set amount of threads
  cargo test -- --test-threads=1
 
+
+ # show output while running tests
+ cargo test -- --show-output
+
 ```
