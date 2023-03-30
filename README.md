@@ -119,4 +119,9 @@ learned about variables, scalar and compound data types, functions, comments, if
  # running tests using filtering
  cargo test filter
 
+ # running only the ignored tests
+ cargo test -- --ignored
+
+ # Run tests whether ignored or not
+ cargo test -- --include-ignored
 ```
