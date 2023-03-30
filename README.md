@@ -113,4 +113,10 @@ learned about variables, scalar and compound data types, functions, comments, if
  # show output while running tests
  cargo test -- --show-output
 
+ #running a specific test
+ cargo test name_of_test_function
+
+ # running tests using filtering
+ cargo test filter
+
 ```
