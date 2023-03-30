@@ -105,4 +105,8 @@ learned about variables, scalar and compound data types, functions, comments, if
 
 ```bash
  cargo test
+
+ # run tests with a set amount of threads
+ cargo test -- --test-threads=1
+
 ```
