@@ -131,7 +131,7 @@ learned about variables, scalar and compound data types, functions, comments, if
 # Chapter 12 | CI Tool Project
 
 ```bash
-cargo run -- test sample.txt
+cargo run -- test poem.txt
 ```
 
 ## Some points on Test Driven Development
