@@ -135,6 +135,9 @@ cargo run -- test poem.txt
 
 
 cargo run -- body poem.txt
+
+#ignoring the case
+IGNORE_CASE=1 cargo run -- to poem.txt
 ```
 
 ## Some points on Test Driven Development
