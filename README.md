@@ -132,6 +132,9 @@ learned about variables, scalar and compound data types, functions, comments, if
 
 ```bash
 cargo run -- test poem.txt
+
+
+cargo run -- body poem.txt
 ```
 
 ## Some points on Test Driven Development
