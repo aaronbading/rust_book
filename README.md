@@ -138,6 +138,10 @@ cargo run -- body poem.txt
 
 #ignoring the case
 IGNORE_CASE=1 cargo run -- to poem.txt
+
+#write contents to a file
+cargo run -- to poem.txt > output.txt
+
 ```
 
 ## Some points on Test Driven Development
@@ -147,3 +151,7 @@ IGNORE_CASE=1 cargo run -- to poem.txt
 - Write or modify just enough code to make the new test pass.
 - Refactor the code you just added or changed and make sure the tests continue to pass.
 - Repeat from step 1!
+
+- Summary : This chapter recapped some of the major concepts you’ve learned so far and covered how to perform common I/O operations in Rust. By using command line arguments, files, environment variables, and the eprintln! macro for printing errors, you’re now prepared to write command line applications. Combined with the concepts in previous chapters, your code will be well organized, store data effectively in the appropriate data structures, handle errors nicely, and be well tested.
+
+# Chapter 13 | Iterators and Closures
