@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["add",""],["add_one","Adds one to the number given."]]};
