@@ -155,3 +155,8 @@ cargo run -- to poem.txt > output.txt
 - Summary : This chapter recapped some of the major concepts you’ve learned so far and covered how to perform common I/O operations in Rust. By using command line arguments, files, environment variables, and the eprintln! macro for printing errors, you’re now prepared to write command line applications. Combined with the concepts in previous chapters, your code will be well organized, store data effectively in the appropriate data structures, handle errors nicely, and be well tested.
 
 # Chapter 13 | Iterators and Closures
+
+- Closures, a function-like construct you can store in a variable
+- Iterators, a way of processing a series of elements
+- How to use closures and iterators to improve the I/O project in Chapter 12
+- The performance of closures and iterators
