@@ -189,3 +189,5 @@ Also discussed were the Deref and Drop traits, which enable a lot of the functio
 - Message-passing concurrency, where channels send messages between threads
 - Shared-state concurrency, where multiple threads have access to some piece of data
 - The Sync and Send traits, which extend Rust’s concurrency guarantees to user-defined types as well as types provided by the standard library
+
+- Summary : The Rust standard library provides channels for message passing and smart pointer types, such as Mutex<T> and Arc<T>, that are safe to use in concurrent contexts. The type system and the borrow checker ensure that the code using these solutions won’t end up with data races or invalid references. Once you get your code to compile, you can rest assured that it will happily run on multiple threads without the kinds of hard-to-track-down bugs common in other languages. Concurrent programming is no longer a concept to be afraid of: go forth and make your programs concurrent, fearlessly!
