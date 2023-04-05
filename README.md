@@ -182,6 +182,8 @@ Also discussed were the Deref and Drop traits, which enable a lot of the functio
 
 # Chapter 16 | Frearless Concurrency
 
+- Do not communicate by sharing memory; instead, share memory by communicating.”
+
 - What we will learn :
 - How to create threads to run multiple pieces of code at the same time
 - Message-passing concurrency, where channels send messages between threads
