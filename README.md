@@ -199,3 +199,19 @@ Also discussed were the Deref and Drop traits, which enable a lot of the functio
 # Chapter 18 | Patterns and Matching
 
 - Summary : Rust’s patterns are very useful in distinguishing between different kinds of data. When used in match expressions, Rust ensures your patterns cover every possible value, or your program won’t compile. Patterns in let statements and function parameters make those constructs more useful, enabling the destructuring of values into smaller parts at the same time as assigning to variables. We can create simple or complex patterns to suit our needs.
+
+# Chapter 19 | Advanced Features
+
+- Unsafe Rust: how to opt out of some of Rust’s guarantees and take responsibility for manually upholding those guarantees
+- Advanced traits: associated types, default type parameters, fully qualified syntax, supertraits, and the newtype pattern in relation to traits
+- Advanced types: more about the newtype pattern, type aliases, the never type, and dynamically sized types
+- Advanced functions and closures: function pointers and returning closures
+  Macros: ways to define code that defines more code at compile time
+
+# Chapter 20 | Final Project: Building a Multithreaded Web Server
+
+- Learn a bit about TCP and HTTP.
+- Listen for TCP connections on a socket.
+- Parse a small number of HTTP requests.
+- Create a proper HTTP response.
+- Improve the throughput of our server with a thread pool.
