@@ -12,12 +12,9 @@ fn main() {
     for stream in listener.incoming() {
         let stream = stream.unwrap();
 
-        thread::spawn(|| {
-            handle_connection(stream);
-        });
+        handle_connection(stream);
     }
 }
-
 
 
 fn handle_connection(mut stream: TcpStream) {
