@@ -8,7 +8,6 @@ pub struct ThreadPool {
     sender: mpsc::Sender<Job>,
 
 }
-struct Job;
 type Job = Box<dyn FnOnce() + Send + 'static>;
 
 
@@ -51,7 +50,6 @@ struct Worker {
 }
 
 impl Worker {
-    impl Worker {
         fn new(id: usize, receiver: Arc<Mutex<mpsc::Receiver<Job>>>) -> Worker {
             let thread = thread::spawn(move || loop {
                 let job = receiver.lock().unwrap().recv().unwrap();
@@ -63,5 +61,4 @@ impl Worker {
     
             Worker { id, thread }
         }
-    }
 }
