@@ -215,3 +215,13 @@ Also discussed were the Deref and Drop traits, which enable a lot of the functio
 - Parse a small number of HTTP requests.
 - Create a proper HTTP response.
 - Improve the throughput of our server with a thread pool.
+
+## Additional tasks for Multithreaded Web Server :
+
+- Add more documentation to ThreadPool and its public methods.
+- Add tests of the library’s functionality.
+- Change calls to unwrap to more robust error handling.
+- Use ThreadPool to perform some task other than serving web requests.
+- Find a thread pool crate on crates.io and implement a similar web server using the crate instead. Then compare its API and robustness to the thread pool we implemented.
+
+- Summary : Well done! You’ve made it to the end of the book! We want to thank you for joining us on this tour of Rust. You’re now ready to implement your own Rust projects and help with other peoples’ projects. Keep in mind that there is a welcoming community of other Rustaceans who would love to help you with any challenges you encounter on your Rust journey.
